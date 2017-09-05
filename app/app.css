@@ -1,0 +1,60 @@
+/* app css stylesheet */
+
+body{
+  padding: 16px;
+  background: #EFEFEF;
+}
+
+.container{
+  display: flex;
+}
+
+.image-div{
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+}
+.image-div img{
+  height: 200px;
+}
+
+.image-div div{
+
+}
+.column{
+  flex-direction: column;
+}
+
+.clear-button
+{
+  align-items: flex-end;
+}
+
+.content{
+  justify-content: space-around;
+  flex-basis: 100%;
+}
+
+.padding-top-8{
+  padding-top: 8px;
+}
+.padding-right-8{
+  padding-right: 8px;
+}
+
+.item
+{
+  width: 40px;
+  height: 40px;
+  border: 1px solid grey;
+  background-color: white;
+}
+
+.selected{
+  background-color: black;
+  opacity: 0.5;
+}
+
+.button{
+  align-items: center;
+}
